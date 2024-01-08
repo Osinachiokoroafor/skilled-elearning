@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    font-size: 10px;
+  }
+body {
+    background-color:hsl(0,0%,100%);
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    overflow-x: hidden;
+    font-family:Plus Jakarta Sans ;
+}
+header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+.toplogo{
+    margin-top: 3rem;
+    margin-left:12rem ;
+}
+.heroimage{
+   position: absolute;
+   top:-7rem; 
+   right: -18rem;
+}
+.text{
+   margin:7rem 0 0 11rem ;
+}
+
+p{
+    line-height: 2rem;
+  font-size: 1.4rem; 
+  color:#83869A ; 
+}
+
+.paragraph{
+  margin: 1.5rem 0 0 0 ;
+  line-height: 2.5rem;
+  font-weight: 400;
+  font-size: 2rem;  
+}
+.textfirst{
+    color: white;
+    line-height: 2.5rem;
+    padding-top: 2rem;
+    font-weight: 900;
+}
+.firstbox{ 
+    background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+}
+.grid-container {
+display: grid;
+row-gap:2rem;
+column-gap: .1rem;
+grid-template-columns: auto auto auto;
+padding: 1rem;
+margin: 12rem 0 5rem 11rem;
+}
+
+.grid-item {
+background-color:white;
+position: relative;
+border:none;
+box-shadow: 0 2.5rem 5rem rgba(6,22,141,0.0442381);
+border-radius: 1.5rem;
+padding:2rem ;
+width: 30rem;
+}
+.section{
+    margin-top: 28rem;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+}
+h1{
+    font-size: 5.4rem;
+    color: #13183f;
+}
+.icon{
+    position: absolute;
+     left: 5;
+     top: -1rem;
+     width: 3rem;
+}
+h5{
+    font-size: 1.8rem;
+    margin: 1rem 0 1rem;
+    color:hsl( 341,92%, 62%);
+}
+h3{
+    font-size:2rem ;
+    margin: 1rem 0 2rem 0;
+   color: hsl( 233,54%, 16%); 
+}
+.firstbtn{
+    margin-top:2.8rem ;
+    margin-right: 14rem;
+    border-radius: 1.8rem;
+    border: none;
+    padding: 1rem;
+    color: white;
+    background-color:hsl( 233,54%, 16%) ;
+}
+.secondbtn{
+ margin-top: 3rem;
+ border: none;
+ padding: 1rem;
+ border-radius:1.8rem ;
+color: white;
+background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+}
+.lastbtn{
+    color: white;
+    margin-right: 6rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 1.8rem;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
+}
+footer{
+    background-color: hsl( 233,54%, 16%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 1rem 7rem;
+}
+.footertext{
+    margin-left: 5rem;
+    font-size: 2rem;
+}
